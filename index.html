@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dinamo Djounvouna – Mathématicien & Enseignant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Site de carrière de Dinamo Djounvouna : recherche, enseignement, projets et contact." />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="topbar">
+    <div class="container nav">
+      <div class="logo">DD</div>
+      <nav>
+        <a href="#about">À propos</a>
+        <a href="#research">Recherche</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Mathématiques • Enseignement • Recherche</p>
+        <h1>Dinamo Djounvouna</h1>
+        <p class="subtitle">
+          Docteur en mathématiques, spécialisé en géométrie multisymplectique et
+          en structures relatives. Enseignant passionné et créateur de contenu.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn primary">Me contacter</a>
+          <a href="#research" class="btn ghost">Voir ma recherche</a>
+        </div>
+      </div>
+
+      <div class="card hero-card">
+        <h2>En bref</h2>
+        <ul>
+          <li>📘 PhD en mathématiques — Université du Manitoba</li>
+          <li>🧪 Recherche : multisymplectique & quasi-hamiltonien</li>
+          <li>👨‍🏫 Enseignement universitaire (MATH 1300, 1500, 2130…)</li>
+          <li>⚽ Fondateur de Ballonga Foot – contenu Real Madrid</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>À propos</h2>
+      <p>
+        Je suis mathématicien et enseignant, spécialisé en géométrie différentielle
+        et en structures multisymplectiques relatives. J'aime construire des liens entre
+        la théorie abstraite et les applications concrètes, que ce soit dans la recherche,
+        l'enseignement ou la vulgarisation scientifique.
+      </p>
+      <p>
+        Mon objectif est de combiner excellence académique, pédagogie moderne
+        et impact social.
+      </p>
+    </div>
+  </section>
+
+  <section id="research" class="section section-alt">
+    <div class="container two-col">
+      <div>
+        <h2>Recherche & enseignement</h2>
+
+        <h3>Domaines</h3>
+        <ul>
+          <li>Multisymplectic & relative geometry</li>
+          <li>Lie 2-algèbres & L∞-structures</li>
+          <li>Espaces quasi-hamiltoniens & cartes moments homotopiques</li>
+        </ul>
+
+        <h3>Cours enseignés</h3>
+        <ul>
+          <li>MATH 1300 – Calcul différentiel</li>
+          <li>MATH 1500 – Calcul II</li>
+          <li>MATH 2130 – Équations différentielles</li>
+          <li>MATH 2132 – Mathématiques appliquées</li>
+          <li>MATH 3132 – Cours avancé</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Publications récentes</h3>
+        <ul>
+          <li><strong>Infinitesimal Symmetries of Bundle Gerbes and Courant Algebroids</strong>, arXiv:2304.05347</li>
+          <li><strong>Observables of Relative Structures and Lie 2-Algebras…</strong> (Thèse de doctorat, 2025)</li>
+          <li>Articles à venir en géométrie relative & applications.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projets</h2>
+
+      <div class="cards-grid">
+        <div class="card">
+          <h3>Ballonga Foot</h3>
+          <p>
+            Plateforme dédiée à l’analyse du Real Madrid : tactiques,
+            décryptages, storytelling, data et actualité.
+          </p>
+          <p class="tagline">Journalisme • Data • Foot</p>
+        </div>
+
+        <div class="card">
+          <h3>Ressources pédagogiques</h3>
+          <p>
+            Création de notes de cours, exercices, examens, explications vidéo…
+            Une approche moderne et structurée des mathématiques.
+          </p>
+          <p class="tagline">Pédagogie • Contenu académique</p>
+        </div>
+
+        <div class="card">
+          <h3>Simulations & outils numériques</h3>
+          <p>
+            Développement Python, visualisations, simulations mathématiques
+            et outils interactifs.
+          </p>
+          <p class="tagline">Python • Data • Analyse</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>
+        Pour toute collaboration, opportunité de recherche ou projet appliqué,
+        n'hésitez pas à me contacter.
+      </p>
+
+      <ul class="contact-list">
+        <li>📧 <a href="mailto:dinamo@example.com">dinamo@example.com</a></li>
+        <li>📄 <a href="#" target="_blank">Télécharger mon CV</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    © <span id="year"></span> Dinamo Djounvouna — Tous droits réservés.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
